@@ -1,0 +1,6 @@
+# ignore compiled binary
+*.out
+
+# ignore comipled datas
+data/dist/
+

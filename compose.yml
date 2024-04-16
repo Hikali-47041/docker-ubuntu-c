@@ -1,0 +1,14 @@
+# ubuntu + gcc + gdb docker container compose file
+
+services:
+  ubuntu-gcc:
+    # image: ubuntu:latest
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: ubuntu-gcc
+    volumes:
+      - type: bind
+        source: "./data"
+        target: "/data"
+    working_dir: "/data"
