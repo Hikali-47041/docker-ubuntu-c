@@ -2,5 +2,5 @@
 *.out
 
 # ignore comipled datas
-data/dist/
-
+data/dist/*
+!.gitignore
