@@ -1,2 +1,2 @@
 FROM ubuntu:latest
-RUN apt-get update && apt-get upgrade -y && apt-get install -y gcc gdb
+RUN apt update && apt upgrade -y && apt install -y gcc gdb make
